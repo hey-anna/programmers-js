@@ -1,6 +1,7 @@
-// 나이 출력
+// 두 수의 나눗셈
 
-function solution(age) {
-  const birthYear = 2022 - age + 1;
-  return birthYear;
-}
+const solution = (num1, num2) => {
+  const division = num1 / num2;
+  const result = Math.floor(division * 1000);
+  return result;
+};

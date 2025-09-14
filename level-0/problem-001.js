@@ -1,5 +1,5 @@
-// 몫 구하기
+// 두 수의 합 구하기
 
-function solution(num1, num2) {
-  return Math.floor(num1 / num2);
-}
+const solution = (num1, num2) => {
+  return num1 + num2;
+};

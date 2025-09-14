@@ -1,5 +1,6 @@
-// 두 수의 합 구하기
+// 배열 두배 만들기
 
-function solution(num1, num2) {
-  return num1 + num2;
-}
+const solution = (numbers) => {
+  const result = numbers.map((arr) => arr * 2);
+  return result;
+};
